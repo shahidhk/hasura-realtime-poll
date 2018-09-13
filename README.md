@@ -1,3 +1,9 @@
+# Important: Moved to [hasura/graphql-engine](https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-poll)
+
+The contents of this repo have been moved to [hasura/graphql-engine](https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-poll). Please create all issues and pull requests there.
+
+---
+
 # hasura-realtime-poll
 
 A demo application to showcase real-time capabilities of [Hasura GraphQL
