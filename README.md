@@ -1,9 +1,3 @@
-# Important: Moved to [hasura/graphql-engine](https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-poll)
-
-The contents of this repo have been moved to [hasura/graphql-engine](https://github.com/hasura/graphql-engine/tree/master/community/examples/realtime-poll). Please create all issues and pull requests there.
-
----
-
 # hasura-realtime-poll
 
 A demo application to showcase real-time capabilities of [Hasura GraphQL
@@ -19,7 +13,7 @@ hosted on GitHub pages and the Postgres+GraphQL Engine is running on Postgres.
 
 - Checkout the [live app](https://shahidh.in/hasura-realtime-poll/).
 - Explore the database using [Hasura
-  Console](https://hasura-realtime-dashboard.herokuapp.com/console/data/schema/public).
+  Console](https://hasura-realtime-poll.herokuapp.com/console/data/schema/public).
   
 # Running the app yourself
 
@@ -30,8 +24,8 @@ hosted on GitHub pages and the Postgres+GraphQL Engine is running on Postgres.
 - Get the Heroku app URL (say `random-string-123.herokuapp.com`)
 - Clone this repo:
   ```bash
-  git clone https://github.com/shahidhk/hasura-realtime-poll
-  cd hasura-realtime-poll
+  git clone https://github.com/hasura/graphql-engine
+  cd graphql-engine/community/examples/realtime-poll
   ```
 - [Install Hasura CLI](https://docs.hasura.io/1.0/graphql/manual/hasura-cli/install-hasura-cli.html)
 - Goto `hasura/` and edit `config.yaml`:
@@ -49,5 +43,6 @@ hosted on GitHub pages and the Postgres+GraphQL Engine is running on Postgres.
   ```
 - Run the app (go the root of repo):
   ```bash
+  npm install
   npm start
   ```
